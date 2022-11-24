@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tristan O’Malley">
-<meta name="dcterms.date" content="2022-11-19">
+<meta name="author" content="Harlow Malloc">
+<meta name="dcterms.date" content="2022-11-22">
 
-<title>Giancarlo Pisciotta’s Blog - Welcome To My Blog</title>
+<title>Giancarlo Pisciotta’s Blog - Visualizing Multifamily Apartment Distribution in New Jersey</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -105,9 +105,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome To My Blog</h1>
+      <h1 class="title">Visualizing Multifamily Apartment Distribution in New Jersey</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">news</div>
+                <div class="quarto-category">multifamily</div>
+                <div class="quarto-category">code</div>
+                <div class="quarto-category">analysis</div>
               </div>
                   </div>
   </div>
@@ -118,14 +120,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Tristan O’Malley </p>
+               <p>Harlow Malloc </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">November 19, 2022</p>
+        <p class="date">November 22, 2022</p>
       </div>
     </div>
     
@@ -143,9 +145,81 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+<!-- <iframe style="width:780px; height:500px" src="./kepler.gl.html" title="Map"></iframe> -->
+
+<iframe allowfullscreen="" src="./kepler.gl.html" style="position:absolute; top:0px; left:0px; width:100%; height:100%; border: none; overflow: hidden;"></iframe>
+<!-- 
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  
+  <style>
+iframe{
+    width : 100%;
+    height : 50vh;
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
+#parent > button {
+  opacity: 0.3;
+  position:relative;
+  float: right;
+  right:10px;
+  bottom:60px;
+  transition: 0.5s;
+}
+#parent > button {
+  opacity: 1;
+}  
+
+
+#fullscreeniframe {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    right: 10px;
+    bottom: 60px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+
+
+  </style>
+</head>
+
+<body>
+  <div id=parent>
+    <iframe src="https://example.com/"></iframe>
+    <button id="fullscreeniframe" title="view in full screen" class="button btn btn-warning"><i class="fas fa-expand"></i></button>
+  </div>
+  <script>
+(function(window, document){
+        $("#fullscreeniframe").addEventListener("click", function(){
+            // iframe fullscreen and non video elements in webkit use request over enter
+            iframe[fullscreenother]();
+        }, false);
+    })(this, this.document);  
+  </script> -->
+
 
 
 

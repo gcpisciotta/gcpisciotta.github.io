@@ -3,16 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "Quarto Blog"
+  title: "Giancarlo Pisciotta's Blog"
   site-url: https://www.myblogexample.io
   description: "A great sample blog"
   navbar:
     right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/
+      - text: About
+        href: about.qmd
+      - icon: linkedin
+        href: https://www.linkedin.com/in/giancarlo-pisciotta/
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/gcpisciotta
 format:
   html:
     theme: united

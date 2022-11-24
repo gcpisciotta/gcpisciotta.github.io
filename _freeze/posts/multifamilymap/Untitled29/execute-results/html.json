@@ -1,0 +1,11 @@
+{
+  "hash": "516bc2a79e9872b295271cc11d5c3ace",
+  "result": {
+    "markdown": "---\ntitle: Visualizing Multifamily Apartment Distribution in New Jersey\nauthor: Harlow Malloc\ndate: '2022-11-22'\ncategories:\n  - multifamily\n  - code\n  - analysis\nimage: image.png\n---\n\n```{=html}\n\n\n<!-- <iframe style=\"width:780px; height:500px\" src=\"./kepler.gl.html\" title=\"Map\"></iframe> -->\n\n<iframe allowfullscreen src=\"./kepler.gl.html\" style=\"position:absolute; top:0px; left:0px; width:100%; height:100%; border: none; overflow: hidden;\"></iframe>\n<!-- \n <link rel=\"stylesheet\" href=\"https://pro.fontawesome.com/releases/v5.10.0/css/all.css\" integrity=\"sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p\" crossorigin=\"anonymous\" />\n  \n  <style>\niframe{\n    width : 100%;\n    height : 50vh;\n    font-size: 14px;\n    margin-bottom: 1em;\n}\n\n#parent > button {\n  opacity: 0.3;\n  position:relative;\n  float: right;\n  right:10px;\n  bottom:60px;\n  transition: 0.5s;\n}\n#parent > button {\n  opacity: 1;\n}  \n\n\n#fullscreeniframe {\n    display: inline-block;\n    padding: 6px 12px;\n    margin-bottom: 0;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 1.42857143;\n    text-align: center;\n    white-space: nowrap;\n    vertical-align: middle;\n    touch-action: manipulation;\n    user-select: none;\n    background-image: none;\n    border: 1px solid transparent;\n    border-radius: 4px;\n    color: #fff;\n    background-color: #f0ad4e;\n    border-color: #eea236;\n    cursor: pointer;\n    position: relative;\n    float: right;\n    right: 10px;\n    bottom: 60px;\n    transition: 0.5s;\n    opacity: 1;\n}\n\n\n\n  </style>\n</head>\n\n<body>\n  <div id=parent>\n    <iframe src=\"https://example.com/\"></iframe>\n    <button id=\"fullscreeniframe\" title=\"view in full screen\" class=\"button btn btn-warning\"><i class=\"fas fa-expand\"></i></button>\n  </div>\n  <script>\n(function(window, document){\n        $(\"#fullscreeniframe\").addEventListener(\"click\", function(){\n            // iframe fullscreen and non video elements in webkit use request over enter\n            iframe[fullscreenother]();\n        }, false);\n    })(this, this.document);  \n  </script> -->\n\n```\n\n",
+    "supporting": [
+      "Untitled29_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

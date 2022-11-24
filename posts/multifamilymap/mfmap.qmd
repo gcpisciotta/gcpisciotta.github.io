@@ -1,0 +1,125 @@
+---
+jupyter: python3
+title: "Visualizing the Multifamily Apartment Distribution Throughout New Jersey"
+date: "2022-11-22"
+categories: [multifamily, analysis, map]
+image: "image.png"
+---
+
+```{=html}
+
+
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  
+  <style>
+iframe{
+    width: 100%;
+    height: 60vh;
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
+#parent > button {
+  opacity: 0.3;
+  position:relative;
+  float: right;
+  right:10px;
+  bottom:60px;
+  transition: 0.5s;
+}
+#parent > button {
+  opacity: 1;
+}  
+
+
+#fullscreeniframe {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    right: 10px;
+    bottom: 60px;
+    transition: 0.5s;
+    opacity: 1;
+}
+  </style>
+</head>
+<body>
+  <div id=parent>
+    <iframe src="./kepler.html">
+
+    </iframe>
+    <button id="fullscreeniframe" title="view in full screen" class="button btn btn-warning"><i class="fas fa-expand"></i></button>
+  </div>
+  <script>
+(function(window, document){
+        var $ = function(selector,context){return(context||document).querySelector(selector)};
+
+        var iframe = $("iframe"),
+            domPrefixes = 'Webkit Moz O ms Khtml'.split(' ');
+
+        var fullscreen = function(elem) {
+            var prefix;
+            // Mozilla and webkit intialise fullscreen slightly differently
+            for ( var i = -1, len = domPrefixes.length; ++i < len; ) {
+              prefix = domPrefixes[i].toLowerCase();
+
+              if ( elem[prefix + 'EnterFullScreen'] ) {
+                // Webkit uses EnterFullScreen for video
+                return prefix + 'EnterFullScreen';
+                break;
+              } else if( elem[prefix + 'RequestFullScreen'] ) {
+                // Mozilla uses RequestFullScreen for all elements and webkit uses it for non video elements
+                return prefix + 'RequestFullScreen';
+                break;
+              }
+            }
+
+            return false;
+        };              
+        // Webkit uses "requestFullScreen" for non video elements
+        var fullscreenother = fullscreen(document.createElement("iframe"));
+
+        if(!fullscreen) {
+            alert("Fullscreen won't work, please make sure you're using a browser that supports it and you have enabled the feature");
+            return;
+        }
+
+        $("#fullscreeniframe").addEventListener("click", function(){
+            // iframe fullscreen and non video elements in webkit use request over enter
+            iframe[fullscreenother]();
+            
+            
+        }, false);
+    })(this, this.document);  
+  </script>
+</body>
+
+```
+## Description
+
+A mapping of all multifamily units for buildings with over three residential units. Viewable in 2D or 3D. Height of each cell is associated with total sum of apartment units in a half-mile radius.
+
+## Controls
+
+drag:  pan
+
+cmd + drag (mac) or ctrl + drag (win): rotate
+
+source: [kepler.gl](https://docs.kepler.gl/docs/user-guides/m-map-settings#view-maps-in-3d){target="_blank"}
