@@ -12,7 +12,7 @@ about:
       href: https://twitter.com/gcpisciotta
 ---
 
-Giancarlo is an engineering student at Rutgers University. He has experience in real estate acquisitions, full stack development, and is most interested in the intersection of real estate and technology.
+I'm an engineering student at Rutgers University with experience in real estate acquisitions and full stack development. I'm most interested in the intersection of real estate and technology.
 
 ## Education
 
