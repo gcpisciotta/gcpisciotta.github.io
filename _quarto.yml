@@ -6,6 +6,7 @@ website:
   title: "Giancarlo Pisciotta's Blog"
   site-url: https://gcpisciotta.github.io
   description: "A great sample blog"
+  favicon : square_logo.png
   navbar:
     right:
       - text: About
