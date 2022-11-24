@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Giancarlo Pisciotta's Blog"
-  site-url: https://www.myblogexample.io
+  site-url: https://gcpisciotta.github.io
   description: "A great sample blog"
   navbar:
     right:

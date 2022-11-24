@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n1 + 1"
+    "objectID": "posts/multifamilymap/mfmap.html#description",
+    "href": "posts/multifamilymap/mfmap.html#description",
+    "title": "Visualizing the Multifamily Apartment Distribution Throughout New Jersey",
+    "section": "Description",
+    "text": "Description\nA mapping of all multifamily units for buildings with over three residential units. Viewable in 2D or 3D. Height of each cell is associated with total sum of apartment units in a half-mile radius."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "objectID": "posts/multifamilymap/mfmap.html#controls",
+    "href": "posts/multifamilymap/mfmap.html#controls",
+    "title": "Visualizing the Multifamily Apartment Distribution Throughout New Jersey",
+    "section": "Controls",
+    "text": "Controls\ndrag: pan\ncmd + drag (mac) or ctrl + drag (win): rotate\nsource: kepler.gl"
   },
   {
     "objectID": "index.html",
@@ -28,53 +28,11 @@
     "text": "Giancarlo is an engineering student at Rutgers University. He has experience in real estate acquisitions, full stack development, and is most interested in the intersection of real estate and technology."
   },
   {
-    "objectID": "posts/jupyter/Untitled29.html",
-    "href": "posts/jupyter/Untitled29.html",
-    "title": "Jupyer test",
-    "section": "",
-    "text": "import requests as r\nimport json\nfrom bs4 import BeautifulSoup as bs\n\n\n123\n123 Heading\n\nimport requests\n\ncookies = {\n    '_ga': 'GA1.1.1915747621.1666529378',\n    '.AspNetCore.Antiforgery.MUx3CiAbjnU': 'CfDJ8P3mjbCEhgJFh6JXrXC2MP4dgywFQXWjSeyfbCZz3LstCd_BPkh8BsQf3dP7TYRQbd8nPbBo-PXRMNRA7xzX5MYhFkq759wqeDoM3__U0DUASBQnMxae0IRJhAuoZa_rqGu16rEr6_r5ZTQx6f1p7yc',\n    '_ga_7GJM164076': 'GS1.1.1668206151.9.1.1668206393.0.0.0',\n}\n\nheaders = {\n    'authority': 'www.taxdatahub.com',\n    'accept': 'application/json, text/javascript, */*; q=0.01',\n    'accept-language': 'en-US,en;q=0.9',\n    'content-type': 'application/json; charset=UTF-8',\n    # Requests sorts cookies= alphabetically\n    # 'cookie': '_ga=GA1.1.1915747621.1666529378; .AspNetCore.Antiforgery.MUx3CiAbjnU=CfDJ8P3mjbCEhgJFh6JXrXC2MP4dgywFQXWjSeyfbCZz3LstCd_BPkh8BsQf3dP7TYRQbd8nPbBo-PXRMNRA7xzX5MYhFkq759wqeDoM3__U0DUASBQnMxae0IRJhAuoZa_rqGu16rEr6_r5ZTQx6f1p7yc; _ga_7GJM164076=GS1.1.1668206151.9.1.1668206393.0.0.0',\n    'origin': 'https://www.taxdatahub.com',\n    'referer': 'https://www.taxdatahub.com/6229fbf0ce4aef911f9de7bc/Essex%20County?town=0701',\n    'requestverificationtoken': 'CfDJ8P3mjbCEhgJFh6JXrXC2MP5UHxBsSyEzOHp0ZTG-BKCbCrMIK7LmQmKv1CMGy6FKxkLL-TBY0jJ-3Eons0fWwthxldXD9jGrMtcDj4hPItRS9VP8q7qPlLeL5_6ryOwkuSJ1L_CuQIsagdqreKKgH1k',\n    'sec-ch-ua': '\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\"',\n    'sec-ch-ua-mobile': '?0',\n    'sec-ch-ua-platform': '\"macOS\"',\n    'sec-fetch-dest': 'empty',\n    'sec-fetch-mode': 'cors',\n    'sec-fetch-site': 'same-origin',\n    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',\n    'x-requested-with': 'XMLHttpRequest',\n}\n\njson_data = {\n    'searchTerm': {\n        'From': 0,\n        'MuniCodes': [\n            '0701',\n        ],\n        'Phrase': '*',\n        'BLQs': [],\n        'ClassCodes': [],\n        'Class4Codes': [],\n        'SaleStartDate': '2022-10-12T21:39:36.159Z',\n        'SaleEndDate': '2022-11-11T22:39:36.164Z',\n        'OwnerName': '',\n        'PropertyLocation': '',\n        'SalePriceFrom': None,\n        'SalePriceTo': None,\n        'IncludeAdditionalLots': False,\n        'Sort': 0,\n    },\n                       \n    'gRecaptchaToken': \"03AEkXODCMwtYd-lJqb3YMbsgxWpmFj1302TwWYE2YZvJ7f5KKFlcX0i3YLpejeV6Rb1hZ1kgM8N2FAMhaUb2JR87sBW9DP_qsxqMrBfDCTUIxSyFDviluj1N9c9Q66ke5_-el1k9anU-meBTGE49LowjggODDs1m4c-WHFOkWxFDnXkSgPJQ4iKNXqb0uY75kxTXaYS4osD92QSg_opBv5xBLQXrMIe8A3aRRgR2tPB0B2EZUvUfjQhUIkjlX0KGWQsSmBw-ojvtdp7jBySwoJtfxJOzo6srNsW8DzdN4iiCssnVjtQo154NEXh7aLS74gYHWAH2Ra9cGGQqvhj0f0cE-Me77sjoNc3KKlGWJlwyh_ar-oc4uJkqYJw1VtlcdOX1IYPJyedGVoh0ZmdQHjZtQWqKvAolRwikz8zbWPjujwuHQhXh2Phg9_wKP5YMM8n3Zx8ayepdkpR0dykZSzeolByG9QnLg5EcxPI2I8XJ4fXzxcyir7BI1aABaMzpep_-_t8PTmkVQ4UuaLnCixpMBZNqWW6bX-9rNoy3UoB8DRiQLOTvTHYR_5RF8muj2BaiNnrTjig5MDMhPnHyeo19_hQONJATBj9wxgxoWPZcd-fWtc6HqVl4IvgrZ4EImnqLG6CaefqHq1FnUIGcP6_8Lfaa_lBtDKvRJHVwa8lGpuIVhX5_8B9bHWJSNcEcrGkTdU_prA3eo8bzMm2bhImyiOP1ZyBztREKO2PD0uBxJlODUtBSaitrShlcNquWC4mmmYRy71IgVsGCIWAZnyZa8D4mf8I8cNeNvSURAlREoXiqvIBBYSYqXVe5e2RODncrzBu7C70f0iagnurKnxnpMm6eqaHxonBLxvIf057DpnKr5Qcvf_HClQpPQRd1RualBkdE7b04uQpZ5Z742-KJTyQeYTjhX7uwdgJtiBl84ULidWtTpFLH82H_4yEKxnd4fGeON5AGExACeYDjTwjlmA7gT9XnO7LfwRiwho9tyoWNWz8z_bGnv6x_Jd0TnXZ5nW4BlpIaCZ4OG7smydmHio6dCiRKiaJl9QxiGyicXt8CSNzzJ4F5UCDdkBWy6ZoMIm8LZE9Q7P7s6leyksG33VoJe8k7wRl52lu0GB7paf18PwVeSNWVLceeBLjVFUislS4VtrXLdB14PCFOqF3A4CIEp3my87ZxkiyBFOfGDb_M0_Sf3u__hWONSRjxer4z9ZBESqlFhws_VxHLFwckm0asIDMbWjfrxyOQdvMRqjraRtm3rkh8TXmjRrRLHMx-hDUnr6-_5\"\n}\n\nresponse = requests.post('https://www.taxdatahub.com/search/6229fbf0ce4aef911f9de7bc/ExportExcel', cookies=cookies, headers=headers, json=json_data)\n\n\nresponse\n\n<Response [200]>\n\n\n\nresponse.content\n\nb'{\"IsError\":true,\"StatusMsg\":\"Possible BOT detected!\"}'\n\n\n\nres = r.get('https://www.taxdatahub.com/6229fbf0ce4aef911f9de7bc/Essex-County-Property-Assessment%20Search%20Hub/details?id=0701_8503_37')\n\nres\n\n<Response [200]>\n\n\n\nsoup = bs(res.content,'html.parser')\nsoup.text\n\n'\\n\\n\\n\\n\\n\\n\\nDetails - [0701_8503_37] - Essex County Property Assessment Search Hub\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n'"
-  },
-  {
-    "objectID": "posts/multifamilymap/Untitled29.html",
-    "href": "posts/multifamilymap/Untitled29.html",
-    "title": "Visualizing Multifamily Apartment Distribution in New Jersey",
-    "section": "",
-    "text": "-->"
-  },
-  {
-    "objectID": "posts/multifamilymap/mfmap.html",
-    "href": "posts/multifamilymap/mfmap.html",
-    "title": "Visualizing Multifamily Apartment Distribution in New Jersey",
-    "section": "",
-    "text": "123"
-  },
-  {
-    "objectID": "posts/multifamilymap/mfmap.html#description",
-    "href": "posts/multifamilymap/mfmap.html#description",
-    "title": "Visualizing the Multifamily Apartment Distribution Throughout New Jersey",
-    "section": "Description",
-    "text": "Description\nA mapping of all multifamily units for buildings with over three residential units. Viewable in 2D or 3D. Height of each cell is associated with total sum of apartment units in a half-mile radius."
-  },
-  {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "Giancarlo Pisciotta",
     "section": "Education",
     "text": "Education\nRutgers University | New Brunswick, NJ Mechanical Engineering | Sept 2021 - May 2023\nPurdue University | West Lafayette, IN Mechanical Engineering | Aug 2019 - May 2021"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Giancarlo Pisciotta",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018\n:::\n\nThis content appears below the formatted about page content."
-  },
-  {
-    "objectID": "about.html#interests-and-skills",
-    "href": "about.html#interests-and-skills",
-    "title": "Giancarlo Pisciotta",
-    "section": "Interests and Skills",
-    "text": "Interests and Skills\nPython, Javascript, Webscraping, SQL, React, Django, Flask\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018\n:::\n\nThis content appears below the formatted about page content."
   },
   {
     "objectID": "about.html#experiences",
@@ -84,38 +42,10 @@
     "text": "Experiences\nNJ Multifamily Analytics | Founder | July 2022 - Present\nPark Realty | Data and Operations | Aug 2020 - July 2022"
   },
   {
-    "objectID": "about.html#experiences-1",
-    "href": "about.html#experiences-1",
-    "title": "Giancarlo Pisciotta",
-    "section": "Experiences",
-    "text": "Experiences\nNJ Multifamily Analytics | Founder | July 2022 - Present\n:::\n\nThis content appears below the formatted about page content."
-  },
-  {
     "objectID": "about.html#skills-and-interestes",
     "href": "about.html#skills-and-interestes",
     "title": "Giancarlo Pisciotta",
     "section": "Skills and Interestes",
     "text": "Skills and Interestes\nPython, Javascript, SQL, Django, React, Webscraping, ArcGIS\n:::"
-  },
-  {
-    "objectID": "posts/multifamilymap/mfmap.html#description-1",
-    "href": "posts/multifamilymap/mfmap.html#description-1",
-    "title": "Visualizing the Multifamily Apartment Distribution Throughout New Jersey",
-    "section": "Description",
-    "text": "Description"
-  },
-  {
-    "objectID": "posts/multifamilymap/mfmap.html#controls",
-    "href": "posts/multifamilymap/mfmap.html#controls",
-    "title": "Visualizing the Multifamily Apartment Distribution Throughout New Jersey",
-    "section": "Controls",
-    "text": "Controls\ndrag: pan\ncmd + drag (mac) or ctrl + drag (win): rotate\nsource: kepler.gl"
-  },
-  {
-    "objectID": "posts/multifamilymap/mfmap.html#descriptio",
-    "href": "posts/multifamilymap/mfmap.html#descriptio",
-    "title": "Visualizing the Multifamily Apartment Distribution Throughout New Jersey",
-    "section": "Descriptio",
-    "text": "Descriptio\nA mapping of all multifamily units for buildings with over three residential units. Viewable in 2D or 3D. Height of each cell is associated with total sum of apartment units in a half-mile radius."
   }
 ]

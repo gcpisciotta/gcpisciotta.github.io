@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.myblogexample.io/posts/post-with-code/index.html</loc>
-    <lastmod>2022-11-22T23:11:08.578Z</lastmod>
+    <loc>https://gcpisciotta.github.io/posts/multifamilymap/mfmap.html</loc>
+    <lastmod>2022-11-24T02:20:20.743Z</lastmod>
   </url>
   <url>
-    <loc>https://www.myblogexample.io/posts/welcome/index.html</loc>
-    <lastmod>2022-11-23T20:26:28.113Z</lastmod>
+    <loc>https://gcpisciotta.github.io/index.html</loc>
+    <lastmod>2022-11-24T02:20:21.041Z</lastmod>
   </url>
   <url>
-    <loc>https://www.myblogexample.io/index.html</loc>
-    <lastmod>2022-11-24T02:15:19.995Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/about.html</loc>
-    <lastmod>2022-11-24T02:13:52.925Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/posts/jupyter/Untitled29.html</loc>
-    <lastmod>2022-11-22T22:54:31.408Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/posts/multifamilymap/Untitled29.html</loc>
-    <lastmod>2022-11-23T20:11:39.729Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/posts/multifamilymap/mfmap.html</loc>
-    <lastmod>2022-11-24T02:15:19.572Z</lastmod>
+    <loc>https://gcpisciotta.github.io/about.html</loc>
+    <lastmod>2022-11-24T02:20:21.343Z</lastmod>
   </url>
 </urlset>
