@@ -114,7 +114,7 @@ iframe{
 ```
 ## Description
 
-A mapping of all multifamily units for buildings with over three residential units. Viewable in 2D or 3D. Height of each cell is associated with total sum of apartment units in a half-mile radius.
+A mapping of all multifamily apartments for buildings with over three residential units. Viewable in 2D or 3D. Height of each cell is associated with total sum of apartment units in a half-mile radius.
 
 ## Controls
 
